@@ -51,7 +51,7 @@ class _WeatherAppState extends State<WeatherApp> {
                 final weatherData = snapshot.data![index];
                 return ListTile(
                   title: Text(cities[index]),
-                  subtitle: Text('Temperature: ${weatherData['current']['temp_c']}°C'),
+                  subtitle: Text('Sıcaklık: ${weatherData['current']['temp_c']}°C'),
                 );
               },
             );
